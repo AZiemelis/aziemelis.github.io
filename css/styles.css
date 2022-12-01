@@ -1,51 +1,42 @@
-/***********************************TAG SELECTORS*************************/
-
-
 body {
-	background-color: #F3EFE0;	
+	margin: 0;
+	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
+	
 }
-
-hr {
-	background-color: #F3EFE0;
-	border-style: none;
-	border-top-style: dotted;
-	border-color: #0F3D3E;
-	border-width: 10px;
-	height: 0px;
-	width: 80%;
+p {
+	color: white;
 }
-
-/*
 h1 {
-	color: #222222;
+	 margin-top: 0;
+	 color: white;
 }
-*/
+
+.helloText {
+	font-size: 100px;
+	margin-bottom: 5px;
+}
+
 h3 {
-	color: #222222;
+	color: white;
 }
 
-img {
-	height: 350px;
+.container {
+	position: relative;
+}
+.introductionAndImg {
+	background-color: #100F0F;
+	height: 1000px;
 }
 
-/***********************************CLASS SELECTORS*************************/
-
-.myName {
-	color: #22A39F;
+.img {
+	position: absolute;
+	right: 200px;
+	width: 500px;
+	top: 150px;
 }
 
-.contactDetails {
-	color: #6D9886;
+.introduction {
+	position: absolute;
+	left: 300px;
+	top: 300px;
 }
-
-/***********************************ID SELECTORS*************************/
-
-#whoAmI {
-	color:#0F3D3E
-}
-
-/*You should use a class if you need to use the same selector more than once within a page or a site. 
-While an ID is specific to a single element, classes can be assigned to multiple elements on a page or throughout the website. 
-They are not unique. And while a single element can only have one ID, it can have multiple classes.
-https://www.bestcolleges.com/bootcamps/guides/css-class-vs-id/#:~:text=You%20should%20use%20a%20class,They%20are%20not%20unique.
-*/
