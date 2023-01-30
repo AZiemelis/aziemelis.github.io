@@ -1,8 +1,11 @@
 body {
 	margin: 0;
 	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
-	
+	background-color: #F1F1F1;
 }
+
+
+
 p {
 	color: black;
 	font-weight: bold;
@@ -11,54 +14,119 @@ p {
 	line-height: 2;
 }
 
+h2 {
+	font-size: 2.5rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	padding-left: 25px;
+}
+
+
 .helloText {
 	font-size: 3.7rem;
 	margin-bottom: 0.313rem;
-	color: white;
 }
 
 .myNameText {
 	font-size:5rem; 
-	color:white;
 }
 
 .aboutMeText {
 	font-size: 3rem;
-	color:white;
 }
 
 .sectionText{
 	color: #22A39F;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 .sectionParagraph {
-	color: #434242;
+	font-size: 1.3rem;
+	margin-top: 0;
+	line-height: 1.2;
+
+}
+
+.experience-row {
+	margin-bottom: 3rem;
+}
+
+.education-row {
+	margin-bottom: 3rem;
 }
 
 .top-container {
 	position: relative;
+	background-color: #F1F1F1;
 }
 .introductionAndImg {
-	background-color: #100F0F;
+	background-color: #F1F1F1;
 	height: 1000px;
 }
 
 .img {
 	position: absolute;
-	right: 200px;
-	width: 500px;
-	top: 150px;
+	right: 300px;
+	width: 600px;
+	top: 200px;
 }
+
 
 .introduction {
 	position: absolute;
-	left: 300px;
-	top: 300px;
+	margin-left: 4rem;
+	top: 200px;
 	width: 700px;
 
 }
 
 .middle-container {
-	background-color: #F3EFE0;
+	background-color: #F1F1F1;
+	margin-left: 4rem;
+	margin-right: 4rem;
 
+}
+
+.bottom-container {
+	border-top-color: #22A39F;
+	border-top-style: solid;
+	background-color: #F1F1F1;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.experience {
+	border-top-color: #22A39F;
+	border-top-style: solid;
+	margin-bottom: 10rem;
+}
+
+.education {
+	border-top-color: #22A39F;
+	border-top-style: solid;
+	margin-bottom: 10rem;
+}
+
+.certifications {
+	border-top-color: #22A39F;
+	border-top-style: solid;
+	margin-bottom: 10rem;
+}
+
+.skills-expertise {
+	border-top-color: #22A39F;
+	border-top-style: solid;
+	margin-bottom: 10rem;
+}
+
+.contact-me {
+	border-top-color: #22A39F;
+	border-top-style: solid;
+	margin-bottom: 10rem;
 }
