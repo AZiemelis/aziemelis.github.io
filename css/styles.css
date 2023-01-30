@@ -55,7 +55,9 @@ ul {
 
 .experience-row {
 	margin-bottom: 3rem;
+	display: inline-block;
 }
+
 
 .education-row {
 	margin-bottom: 3rem;
@@ -72,17 +74,17 @@ ul {
 
 .img {
 	position: absolute;
-	right: 300px;
-	width: 600px;
-	top: 200px;
+	right: 18.75rem;
+	width: 37.5rem;
+	top: 12.5rem;
 }
 
 
 .introduction {
 	position: absolute;
 	margin-left: 4rem;
-	top: 200px;
-	width: 700px;
+	top: 12.5rem;
+	width: 43.75rem;
 
 }
 
