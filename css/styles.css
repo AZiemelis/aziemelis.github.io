@@ -53,15 +53,27 @@ ul {
 
 }
 
-.experience-row {
+.experience-row, .education-row {
 	margin-bottom: 3rem;
+	text-align: left;
+	width: 100%;
+	white-space: nowrap;
+	
+}
+
+.experience-text, .education-text {
 	display: inline-block;
+	width: 60%;
+	vertical-align: top;
 }
 
-
-.education-row {
-	margin-bottom: 3rem;
+.year {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	vertical-align: top;
 }
+
 
 .top-container {
 	position: relative;
@@ -108,6 +120,7 @@ ul {
 	border-top-style: solid;
 	margin-bottom: 10rem;
 }
+
 
 .education {
 	border-top-color: #22A39F;
