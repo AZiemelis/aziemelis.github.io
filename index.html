@@ -1,32 +1,4 @@
-<!-- 
-	Avoid inline styling, 	Best to use external
-	ID selector is used rarely in CSS
-	https://www.w3schools.com/tags/tag_span.asp
-	* {    <-- changes everything (selects all elements, not as same as body)
-
-	}
-
-	css works from top to down cascading
-	!improtant (dont abuse it) apply correctly 
-
-	## COLORS ##
-	https://coolors.co for contrast, and color pallete
-
-
-	## Units & Sizes
-	Pixels is a absolute value - no changes if we change the resolution
-	pixels are relative to other pixels
-	rem is not relative, only to default size
-	em is relative
-
-	##Chapter 7 styling links (NODERIIGS)
-
-
-	#UDEMY#
-	https://getbootstrap.com/docs/5.3/examples/
-	https://www.codeply.com/
-
--->
+<!-- Check RFS in documentation for responsive font size  -->
 
 <!DOCTYPE html>
 <html>
@@ -34,158 +6,154 @@
 <head>
  	<meta charset="UTF-8">
  	<title>Arturs Ziemelis</title>
+	
+	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="css/styles.css">
+	
+	
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&family=Montserrat:wght@400;500;600&family=Staatliches&display=swap" rel="stylesheet">
+	<!-- CSS Stylesheets -->
+	<link rel="stylesheet" href="css/styles1.css">
 
 </head>
-
 <body>
-	<div class="top-container">
-
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand">AZiemelis</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
+	
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-lg bg-transparent">
+		<div class="container-fluid">
+			<a class="navbar-brand">AZiemelis<span class="myname-text-words">.</span></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">		
-				<ul class="navbar-nav ms-auto" >
-					<li calss="nav-item">
-						<a class="nav-link" href="">Contact</a>
+
+			<!-- IDK HOW THAT WORKS, IT CENTERS MY NAV ITEMS -->
+			<div class="collapse navbar-collapse"></div> 
+			<!--  -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
 					</li>
-					<li calss="nav-item">
-						<a class="nav-link" href="">Contact</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
 					</li>
-					<li calss="nav-item">
-						<a class="nav-link" href="">Contact</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
 					</li>
-					<li calss="nav-item">
-						<a class="nav-link" href="">Contact</a>
+					<li class="nav-item">
+						<a class="nav-link">Disabled</a>
 					</li>
 				</ul>
 			</div>
-		</nav>
+		</div>
+	</nav>
 
-		<div class="introductionAndImg">
-			<div class="introduction">
-				<h1 class="helloText"> Hello</h1>
-				<h1 class="myNameText">I'm Arturs Ziemelis</h1>
-				<h3 class="aboutMeText">Junior Developer</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<!-- Title -->
+	<section id="title">
+
+		<div class="container-fluid">
+			<div class="row row-title">
+			  	<div class="col title-text">
+					<h1 class="hello-text"> Hello</h1>
+					<h1 class="myname-text">I'm <span class="myname-text-words">Arturs Ziemelis,</span></h1>
+					<h3 class="aboutme-text">Junior Developer</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+			  	</div>
+			  	<div class="col text-center image-title-background">
+					<img class="image-title" src="images/IMG_5915.jpg" alt="me">
+			  	</div>
 			</div>
 		</div>
-		
-		<div>
-			<img class="img" src="images/IMG_5915.jpg" alt="me">
-		</div>
-	</div>
-	
-	<div class="middle-container">
-		
-		<div class="experience" >
-			<h3 class="sectionText">Professional Experience</h2>
-			<div class="experience-row">
-				<div class="experience-text">
+	</section>
+
+	<!-- Experience -->
+
+
+	<section id="experience"> 
+		<h3 class="section-text">Professional Experience</h2>
+		<div class="container-fluid">
+			<div class="row custom-row">
+			  	<div class="col-lg-9 col-sm-12 order-lg-1 order-sm-2 left-side">
 					<h2>Junior QA Engineer</h2>
-					<p class="sectionParagraph">TestDevLab <br> Riga, Latvia </p>
+					<p>TestDevLab<br> Riga, Latvia</p>
 					<ul>
 						<li>Coffee</li>
 						<li>Tea</li>
 						<li>Milk</li>
 					</ul>
-				</div>
-				<div class="year">
+			  	</div>
+				<div class="col-lg-3 col-sm-12 text-md-end text-sm-start  order-lg-2 order-sm-1 right-side">
 					<h2>Jan 2022 - Sep 2022</h2>
-				</div>
-				
+			  	</div>
 			</div>
-		
-			<div class="experience-row">
-				<div class="experience-text">
+		</div>
+
+		<div class="container-fluid">
+			<div class="row custom-row">
+			  	<div class="col-lg-9 order-lg-1 order-sm-2 left-side">
 					<h2>Cloud & Automation Intern</h2>
-					<p class="sectionParagraph">Accenture Baltics<br> Riga, Latvia</p>
+					<p>Accenture Baltics<br> Riga, Latvia</p>
 					<ul>
 						<li>Coffee</li>
 						<li>Tea</li>
 						<li>Milk</li>
 					</ul>
-				</div>
-				<div class="year">
+			  	</div>
+				<div class="col-lg-3 col-sm-12 text-md-end text-sm-start order-lg-2 order-sm-1 right-side">
 					<h2>Jun 2021 - Aug 2021</h2>
-				</div>
+			  	</div>
 			</div>
 		</div>
+	</section>
 	
-		
-		<div class="education" >
-			<h3 class="sectionText">Education</h2>
-			<div class="education-row">
-				<div class="education-text">
+	<!-- Education -->
+
+	<section id="education"> 
+		<h3 class="section-text">Education</h2>
+		<div class="container-fluid">
+			<div class="row custom-row">
+			  	<div class="col-lg-9 col-sm-12 order-lg-1 order-sm-2 left-side">
 					<h2>Bachelor in Telecommunication technologies and data transmission engineering</h2>
-					<p class="sectionParagraph"> Riga Technical University
-						<br> Riga, Latvia
-					</p>	
-				</div>
-				<div class="year">
-					<h2>2022 - 2024</h2>
-				</div>
-				
+					<p>Riga Technical University <br> Riga, Latvia</p>
+					<ul>
+						<li>Coffee</li>
+						<li>Tea</li>
+						<li>Milk</li>
+					</ul>
+			  	</div>
+				<div class="col-lg-3 col-sm-12 text-md-end text-sm-start order-lg-2 order-sm-1 right-side">
+					<h2>Jan 2022 - Sep 2022</h2>
+			  	</div>
 			</div>
+		</div>
 
-			<div class="education-row">
-				<div class="education-text">
+		<div class="container-fluid">
+			<div class="row custom-row">
+			  	<div class="col-lg-9 order-lg-1 order-sm-2 left-side">
 					<h2>Bachelor in Computer Systems (Unfinished)</h2>
-					<p class="sectionParagraph"> Riga Technical University
-						<br> Riga, Latvia
-					</p>
-				</div>
-				<div class="year">
-					<h2>2020 - 2022</h2>
-				</div>
-			</div>
-
-		</div>
-		
-		<div class="certifications" >
-			<h3 class="sectionText">Certifications</h2>
-			<div class="certification-row">
-				<h2>ISTQB Foundation</h2>
-			</div>
-			<div class="certification-row">
-				<h2>CCNA</h2>
+					<p>Riga Technical University <br> Riga, Latvia</p>
+					<ul>
+						<li>Coffee</li>
+						<li>Tea</li>
+						<li>Milk</li>
+					</ul>
+			  	</div>
+				<div class="col-lg-3 col-sm-12 text-md-end text-sm-start order-lg-2 order-sm-1 right-side">
+					<h2>Jun 2021 - Aug 2021</h2>
+			  	</div>
 			</div>
 		</div>
+	</section>
 
-		<div class="skills-expertise">
-			<h3 class="sectionText">Skills & Expertise</h2>
-				<div class="skills-expertise-row">
-					<h2>Computer Networks</h2>
-				</div>
-				<div class="skills-expertise-row">
-					<h2>JavaScript</h2>
-				</div>
-		</div>
-
-		
-		<div class="contact-me" >
-			<h3 class="sectionText">Contact</h2>
-			<h2>Email</h2>
-			<p class="sectionParagraph">ziemelis38@gmail.com</p>
-			<a class="footer-link" href="https://www.linkedin.com/in/arturs-ziemelis-1827331a0/">LinkedIn</a>
-			<a class="footer-link" href="https://www.instagram.com/aziemelis/">Instagram</a>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="bottom-container">	
-		<p>© 2023 by Arturs Ziemelis</p>
-	</div>
 	
+
+
 </body>
 
 </html>

@@ -1,147 +1,98 @@
 body {
-	margin: 0;
-	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
 	background-color: #F1F1F1;
-}
-
-
-
-p {
-	color: black;
-	font-weight: bold;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1rem;
-	line-height: 2;
 }
 
 h2 {
 	font-size: 2.5rem;
-	margin-top: 0;
-	margin-bottom: 0;
+	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5rem;
-	padding-left: 25px;
+.section-text {
+	padding-top: 6px;
+	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
+	color: #22A39F;
+	font-size: 1.4rem;
+} 
+	
+
+/* Navigation Bar */
+
+.navbar {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: 2px solid #22A39F;
+}
+
+.navbar-brand {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 2rem;
+}
+
+.nav-item {
+	padding: 0 22px;
+}
+
+/* Title */
+
+#title {
+	border-bottom: 2px solid #22A39F;
+	padding-bottom: 5%;
+}
+
+.custom-row {
+	margin-bottom: 4rem;
+}
+
+.title-text {
+	padding-top: 10%;
+}
+
+.hello-text {
+	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 4rem;
+}
+
+.myname-text {
+	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 5rem; 
+}
+
+.myname-text-words {
+	color: #22A39F;
 }
 
 
-.helloText {
-	font-size: 3.7rem;
-	margin-bottom: 0.313rem;
-}
-
-.myNameText {
-	font-size:5rem; 
-}
-
-.aboutMeText {
+.aboutme-text {
+	font-family: 'Staatliches', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 3rem;
 }
 
-.sectionText{
-	color: #22A39F;
-	margin-top: 10px;
-	margin-bottom: 30px;
+.image-title {
+	padding-top: 7%;
+	width: 34rem;
+	border-radius: 20%;
 }
 
-.sectionParagraph {
-	font-size: 1.3rem;
-	margin-top: 0;
-	line-height: 1.2;
+/* .image-title-background {
+	background-color: #E2DCC8;
+} */
 
-}
 
-.experience-row, .education-row {
-	margin-bottom: 3rem;
-	text-align: left;
-	width: 100%;
-	white-space: nowrap;
-	
-}
+/* Professional Experience */
 
-.experience-text, .education-text {
-	display: inline-block;
-	width: 60%;
-	vertical-align: top;
-}
-
-.year {
-	display: inline-block;
-	text-align: right;
-	width: 40%;
-	vertical-align: top;
+#experience {
+	border-bottom: 2px solid #22A39F;
 }
 
 
-.top-container {
-	position: relative;
-	background-color: #F1F1F1;
-}
-.introductionAndImg {
-	background-color: #F1F1F1;
-	height: 1000px;
+.left-side {
+	padding: 0;
 }
 
-.img {
-	position: absolute;
-	right: 18.75rem;
-	width: 37.5rem;
-	top: 12.5rem;
+.right-side {
+	padding: 0;
+	font-size: 100%;
 }
 
-
-.introduction {
-	position: absolute;
-	margin-left: 4rem;
-	top: 12.5rem;
-	width: 43.75rem;
-
-}
-
-.middle-container {
-	background-color: #F1F1F1;
-	margin-left: 4rem;
-	margin-right: 4rem;
-
-}
-
-.bottom-container {
-	border-top-color: #22A39F;
-	border-top-style: solid;
-	background-color: #F1F1F1;
-	margin-left: 4rem;
-	margin-right: 4rem;
-}
-
-.experience {
-	border-top-color: #22A39F;
-	border-top-style: solid;
-	margin-bottom: 10rem;
-}
-
-
-.education {
-	border-top-color: #22A39F;
-	border-top-style: solid;
-	margin-bottom: 10rem;
-}
-
-.certifications {
-	border-top-color: #22A39F;
-	border-top-style: solid;
-	margin-bottom: 10rem;
-}
-
-.skills-expertise {
-	border-top-color: #22A39F;
-	border-top-style: solid;
-	margin-bottom: 10rem;
-}
-
-.contact-me {
-	border-top-color: #22A39F;
-	border-top-style: solid;
-	margin-bottom: 10rem;
-}
