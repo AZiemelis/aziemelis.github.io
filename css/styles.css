@@ -1,6 +1,4 @@
 body {
-	margin-left: 5%;
-	margin-right: 5%;
 	background-color: #F1F1F1;
 }
 
@@ -23,6 +21,9 @@ h2 {
 	padding-top: 1%;
 	padding-bottom: 1%;
 	border-bottom: 2px solid #22A39F;
+	padding-left: 5%;
+	padding-right: 5%;
+
 }
 
 .navbar-brand {
@@ -39,6 +40,8 @@ h2 {
 #title {
 	border-bottom: 2px solid #22A39F;
 	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .custom-row {
@@ -84,6 +87,14 @@ h2 {
 
 #experience {
 	border-bottom: 2px solid #22A39F;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#education {
+	padding-left: 5%;
+	padding-right: 5%;
+	border-bottom: 2px solid #22A39F;
 }
 
 
@@ -96,3 +107,15 @@ h2 {
 	font-size: 100%;
 }
 
+footer {
+	padding-top: 5rem;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color:#100F0F;
+	text-align: center;
+}
+
+/* .social-media-buttons {
+	background-color: red;
+	text-align: center;
+} */
